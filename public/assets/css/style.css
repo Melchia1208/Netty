@@ -1,0 +1,63 @@
+body {
+    background-color : bisque;
+}
+
+.container {
+    background-color: #eaeef1;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#title {
+    padding: 5vh 0 5vh 0;
+    text-align: center;
+    width: 100%;
+}
+
+.titre-colonne {
+    position: relative;
+    color: #18aee0;
+    border-bottom: 2px solid #18aee0;
+}
+
+.bouton-titre {
+    position : absolute;
+    right: 0;
+    top: 0;
+    width: 25%;
+    background-color: #18aee0;
+    color: white;
+}
+
+form {
+    margin-top: 2vh;
+}
+
+a:nth-child(odd) {
+    background-color: #f6f6f6;
+}
+
+a:hover {
+    background-color: #dbeffb !important;
+}
+
+.appear {
+    animation-name : appear;
+    animation-duration: 500ms;
+    animation-fill-mode: forwards;
+}
+
+@keyframes appear {
+    from {opacity: 0; transform: translateX(50vw)}
+    to {opacity: 1; transform: translateX(0)}
+}
+
+#base {
+    text-align: center;
+    margin-top: 5vh;
+    color: #18aee0;
+}
+
+.submit-button {
+    text-align: center;
+}

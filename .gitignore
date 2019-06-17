@@ -1,0 +1,5 @@
+.idea
+/vendor/
+/temp/*
+*.cache
+app/connect_db.php
